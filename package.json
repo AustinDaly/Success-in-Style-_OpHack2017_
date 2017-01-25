@@ -1,0 +1,24 @@
+{
+  "name": "success-in-style-ophack2017",
+  "version": "1.0.0",
+  "description": "The 2017 oppertunity hack",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AustinDaly/Success-in-Style-_OpHack2017_.git"
+  },
+  "keywords": [
+    "oppertunity",
+    "hack",
+    "2017"
+  ],
+  "author": "Austin Daly",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AustinDaly/Success-in-Style-_OpHack2017_/issues"
+  },
+  "homepage": "https://github.com/AustinDaly/Success-in-Style-_OpHack2017_#readme"
+}
