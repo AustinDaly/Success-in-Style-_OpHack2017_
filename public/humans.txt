@@ -2,13 +2,11 @@
 # The humans responsible & technology colophon
 
 # TEAM
-
-    <name> -- <role> -- <twitter>
-
+    Austin Daly -- Backend Development -- @dosentDoThisTwitterNonesense
+    Taylor Heartman -- Frontend Development -- @dosentDoThisTwitterNonesense
 # THANKS
-
-    <name>
-
+  Shau Li
+  Brad Clark
 # TECHNOLOGY COLOPHON
 
     HTML5, CSS3
