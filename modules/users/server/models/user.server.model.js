@@ -70,6 +70,11 @@ var UserSchema = new Schema({
   salt: {
     type: String
   },
+  verified: {
+    type: Boolean,
+    default: false
+  },
+
   profileImageURL: {
     type: String,
     default: 'modules/users/img/profile/default.png'
