@@ -11,7 +11,7 @@ angular.module('core').config(['$stateProvider', '$urlRouterProvider',
     $stateProvider
     .state('signup-success', {
       url: '/signup-success',
-      templateUrl: 'modules/core/client/views/signup-success.html'
+      templateUrl: 'modules/core/views/signup-success.html'
     })
       .state('home', {
         url: '/',
@@ -22,5 +22,4 @@ angular.module('core').config(['$stateProvider', '$urlRouterProvider',
         templateUrl: 'modules/core/views/404.client.view.html'
       });
   }
-
 ]);
