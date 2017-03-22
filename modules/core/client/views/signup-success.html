@@ -1,7 +1,6 @@
 <div ng-view>
-  <h1>Page Found</h1>
-  <div class="alert alert-danger" role="alert">
-    <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
-    <span class="sr-only">NError:</span> Page Not Found
-  </div>
+  <h1>Press button to send score</h1>
+  <form name="getscore" data-ng-submit="sendscore()">
+    <button type="submit">Send Data</button>
+  </form>
 </div>
