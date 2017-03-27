@@ -4,20 +4,20 @@
     <form data-ng-submit="signin()" class="signin form-horizontal" autocomplete="off">
       <fieldset>
         <div class="form-group">
-          <label for="username">Username</label>
-          <input type="text" id="username" name="username" class="form-control"
-               data-ng-model="credentials.username" placeholder="Username">
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email" class="form-control"
+               data-ng-model="credentials.username" placeholder="Smith@email.com">
         </div>
         <div class="form-group">
           <label for="password">Password</label>
           <input type="password" id="password" name="password" class="form-control"
                data-ng-model="credentials.password" placeholder="Password">
         </div>
-        <div class="text-center form-group">
+<!--       <div class="text-center form-group">
           <button type="submit" class="btn btn-primary">Sign in</button>
           &nbsp; or&nbsp;
           <a data-ui-sref="authentication.signup">Sign up</a>
-        </div>
+        </div> -->
         <div class="text-center forgot-password">
           <a data-ui-sref="password.forgot">Forgot your password?</a>
         </div>
