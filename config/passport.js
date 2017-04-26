@@ -9,7 +9,7 @@ passport.use(new LocalStrategy(
 	},
 	function (username, password, done)
 	{
-		User.findONe({ email: username }, 
+		User.findOne({ email: username },
 		function (err, user)
 		{
 			//Using specific messages instead of generic ones for debugging.
@@ -18,21 +18,19 @@ passport.use(new LocalStrategy(
 			{ return done(err); }
 			if (!user)
 			{
-				return done(null, false, 
+				return done(null, false,
 				{
 					message: 'Incorrect username.'
 				});
 			}
-			
 			if (!user.validPassword(password))
 			{
-				return done(null, false, 
+				return done(null, false,
 					{
 					message: 'Incorrect password.'
 				}
 				);
 			}
-			
 			//Passed all checks.
 			return done(null, user);
 		}

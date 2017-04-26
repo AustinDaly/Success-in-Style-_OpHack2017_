@@ -74,7 +74,10 @@ var UserSchema = new Schema({
     type: Boolean,
     default: false
   },
+<<<<<<< HEAD
 
+=======
+>>>>>>> login
   profileImageURL: {
     type: String,
     default: 'modules/users/img/profile/default.png'

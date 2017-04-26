@@ -9,6 +9,10 @@ angular.module('core').config(['$stateProvider', '$urlRouterProvider',
 
     // Home state routing
     $stateProvider
+    .state('signup-success', {
+      url: '/signup-success',
+      templateUrl: 'modules/core/views/signup-success.html'
+    })
       .state('home', {
         url: '/',
         templateUrl: 'modules/core/views/home.client.view.html'
