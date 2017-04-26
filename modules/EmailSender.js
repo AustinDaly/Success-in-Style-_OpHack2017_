@@ -1,5 +1,5 @@
 'use strict';
-var nodemailer = require('nodemailer')
+var nodemailer = require('nodemailer');
 
 module.exports =
 {
