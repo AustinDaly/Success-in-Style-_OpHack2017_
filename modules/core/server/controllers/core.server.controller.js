@@ -1,8 +1,23 @@
 'use strict';
 
+const nodemailer = requie('nodemailer');
+
+exports.sendMail = function(req, res)
+{
+  let transporter = nodemailer.createTransport({
+    service: 'gmail',
+    auth:{
+      user: 'example@gmail.com', //TODO: make this a real email
+      pass: 'password'
+    }
+
+    
+  })
+}
 /**
  * Render the main application page
  */
+
 exports.renderIndex = function (req, res) {
   res.render('modules/core/server/views/index', {
     user: req.user || null
