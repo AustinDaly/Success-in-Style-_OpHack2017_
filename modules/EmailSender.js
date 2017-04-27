@@ -7,10 +7,11 @@ module.exports =
   {
     let transporter = nodemailer.createTransport(
       {
-      service: 'gmail',
+      service: 'Gmail',
       auth:
       {
-        user: 'successinstylebot@gmail.com',
+        type: 'OAuth2',
+        user: 'gmail.successinstylebot@gmail.com',
         pass: '53aeeced9b16cba7cc049fedf104f4d969470d2c'
       }
     });
