@@ -13,8 +13,10 @@ module.exports = function (app) {
   // Define application route
   app.route('/*').get(core.renderIndex);
 
-  app.post('/send-email', function(req, res){
+  app.post('/send-email', function(req, res)
+  {
     console.log('Hello, world!');
+    var User = req.user;
     EmailSender.sendEmail('austindaly7cf@gmail.com', 'Test', 'The quick brown fox jumps over the lazy dog. 0123456789');
     res.redirect('/');
   });

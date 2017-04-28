@@ -78,6 +78,10 @@ var UserSchema = new Schema({
     type: String,
     default: 'modules/users/img/profile/default.png'
   },
+  score:{
+    type:Number,
+    default: 0
+  },
   provider: {
     type: String,
     required: 'Provider is required'

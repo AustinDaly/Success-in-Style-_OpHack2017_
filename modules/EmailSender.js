@@ -5,7 +5,7 @@ module.exports =
 {
   sendEmail: function(address, subject, message)
   {
-    let transporter = nodemailer.createTransport(
+    var transporter = nodemailer.createTransport(
       {
       service: 'Gmail',
       auth:
@@ -14,6 +14,8 @@ module.exports =
         pass: '53aeeced9b16cba7cc049fedf104f4d969470d2c'
       }
     });
+
+    console.log('created');
     transporter.sendMail(
       {
           from: 'successinstylebot@gmail.com',
